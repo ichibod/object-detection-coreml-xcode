@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4E065B1FEB0FFB005AA17B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E065A1FEB0FFB005AA17B /* CameraViewController.swift */; };
+		DAACEF981FE9B44400C059CB /* 20171211_224011963_iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAACEF971FE9B44400C059CB /* 20171211_224011963_iOS.jpg */; };
+		DADC60691FE024E000C8DBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC60681FE024E000C8DBFB /* AppDelegate.swift */; };
+		DADC606B1FE024E000C8DBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC606A1FE024E000C8DBFB /* ViewController.swift */; };
+		DADC606E1FE024E000C8DBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC606C1FE024E000C8DBFB /* Main.storyboard */; };
+		DADC60701FE024E000C8DBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC606F1FE024E000C8DBFB /* Assets.xcassets */; };
+		DADC60731FE024E000C8DBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC60711FE024E000C8DBFB /* LaunchScreen.storyboard */; };
+		DADC607E1FE024E000C8DBFB /* SlaloMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC607D1FE024E000C8DBFB /* SlaloMLTests.swift */; };
+		DADC60891FE024E000C8DBFB /* SlaloMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC60881FE024E000C8DBFB /* SlaloMLUITests.swift */; };
+		DADC60991FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */; };
+		DADC609D1FE02C5C00C8DBFB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC609C1FE02C5C00C8DBFB /* File.swift */; };
+		DADC609F1FE0352E00C8DBFB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC609E1FE0352E00C8DBFB /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADC607A1FE024E000C8DBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC605D1FE024E000C8DBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADC60641FE024E000C8DBFB;
+			remoteInfo = SlaloML;
+		};
+		DADC60851FE024E000C8DBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC605D1FE024E000C8DBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADC60641FE024E000C8DBFB;
+			remoteInfo = SlaloML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA4E065A1FEB0FFB005AA17B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DAACEF971FE9B44400C059CB /* 20171211_224011963_iOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20171211_224011963_iOS.jpg; sourceTree = "<group>"; };
+		DADC60651FE024E000C8DBFB /* SlaloML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlaloML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC60681FE024E000C8DBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADC606A1FE024E000C8DBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADC606D1FE024E000C8DBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADC606F1FE024E000C8DBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADC60721FE024E000C8DBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADC60741FE024E000C8DBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC60791FE024E000C8DBFB /* SlaloMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlaloMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC607D1FE024E000C8DBFB /* SlaloMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaloMLTests.swift; sourceTree = "<group>"; };
+		DADC607F1FE024E000C8DBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC60841FE024E000C8DBFB /* SlaloMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlaloMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC60881FE024E000C8DBFB /* SlaloMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaloMLUITests.swift; sourceTree = "<group>"; };
+		DADC608A1FE024E000C8DBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SlalomLogoClassifier.mlmodel; sourceTree = "<group>"; };
+		DADC609C1FE02C5C00C8DBFB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DADC609E1FE0352E00C8DBFB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADC60621FE024E000C8DBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60761FE024E000C8DBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60811FE024E000C8DBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADC605C1FE024E000C8DBFB = {
+			isa = PBXGroup;
+			children = (
+				DADC60671FE024E000C8DBFB /* SlaloML */,
+				DADC607C1FE024E000C8DBFB /* SlaloMLTests */,
+				DADC60871FE024E000C8DBFB /* SlaloMLUITests */,
+				DADC60661FE024E000C8DBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADC60661FE024E000C8DBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADC60651FE024E000C8DBFB /* SlaloML.app */,
+				DADC60791FE024E000C8DBFB /* SlaloMLTests.xctest */,
+				DADC60841FE024E000C8DBFB /* SlaloMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADC60671FE024E000C8DBFB /* SlaloML */ = {
+			isa = PBXGroup;
+			children = (
+				DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */,
+				DAACEF971FE9B44400C059CB /* 20171211_224011963_iOS.jpg */,
+				DADC60681FE024E000C8DBFB /* AppDelegate.swift */,
+				DADC606A1FE024E000C8DBFB /* ViewController.swift */,
+				DA4E065A1FEB0FFB005AA17B /* CameraViewController.swift */,
+				DADC609E1FE0352E00C8DBFB /* Utilities.swift */,
+				DADC609C1FE02C5C00C8DBFB /* File.swift */,
+				DADC606C1FE024E000C8DBFB /* Main.storyboard */,
+				DADC606F1FE024E000C8DBFB /* Assets.xcassets */,
+				DADC60711FE024E000C8DBFB /* LaunchScreen.storyboard */,
+				DADC60741FE024E000C8DBFB /* Info.plist */,
+			);
+			path = SlaloML;
+			sourceTree = "<group>";
+		};
+		DADC607C1FE024E000C8DBFB /* SlaloMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADC607D1FE024E000C8DBFB /* SlaloMLTests.swift */,
+				DADC607F1FE024E000C8DBFB /* Info.plist */,
+			);
+			path = SlaloMLTests;
+			sourceTree = "<group>";
+		};
+		DADC60871FE024E000C8DBFB /* SlaloMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DADC60881FE024E000C8DBFB /* SlaloMLUITests.swift */,
+				DADC608A1FE024E000C8DBFB /* Info.plist */,
+			);
+			path = SlaloMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADC60641FE024E000C8DBFB /* SlaloML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC608D1FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloML" */;
+			buildPhases = (
+				DADC60611FE024E000C8DBFB /* Sources */,
+				DADC60621FE024E000C8DBFB /* Frameworks */,
+				DADC60631FE024E000C8DBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlaloML;
+			productName = SlaloML;
+			productReference = DADC60651FE024E000C8DBFB /* SlaloML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADC60781FE024E000C8DBFB /* SlaloMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC60901FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloMLTests" */;
+			buildPhases = (
+				DADC60751FE024E000C8DBFB /* Sources */,
+				DADC60761FE024E000C8DBFB /* Frameworks */,
+				DADC60771FE024E000C8DBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADC607B1FE024E000C8DBFB /* PBXTargetDependency */,
+			);
+			name = SlaloMLTests;
+			productName = SlaloMLTests;
+			productReference = DADC60791FE024E000C8DBFB /* SlaloMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADC60831FE024E000C8DBFB /* SlaloMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC60931FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloMLUITests" */;
+			buildPhases = (
+				DADC60801FE024E000C8DBFB /* Sources */,
+				DADC60811FE024E000C8DBFB /* Frameworks */,
+				DADC60821FE024E000C8DBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADC60861FE024E000C8DBFB /* PBXTargetDependency */,
+			);
+			name = SlaloMLUITests;
+			productName = SlaloMLUITests;
+			productReference = DADC60841FE024E000C8DBFB /* SlaloMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADC605D1FE024E000C8DBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Slalom;
+				TargetAttributes = {
+					DADC60641FE024E000C8DBFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DADC60781FE024E000C8DBFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DADC60641FE024E000C8DBFB;
+					};
+					DADC60831FE024E000C8DBFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DADC60641FE024E000C8DBFB;
+					};
+				};
+			};
+			buildConfigurationList = DADC60601FE024E000C8DBFB /* Build configuration list for PBXProject "SlaloML" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADC605C1FE024E000C8DBFB;
+			productRefGroup = DADC60661FE024E000C8DBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADC60641FE024E000C8DBFB /* SlaloML */,
+				DADC60781FE024E000C8DBFB /* SlaloMLTests */,
+				DADC60831FE024E000C8DBFB /* SlaloMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADC60631FE024E000C8DBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC60731FE024E000C8DBFB /* LaunchScreen.storyboard in Resources */,
+				DAACEF981FE9B44400C059CB /* 20171211_224011963_iOS.jpg in Resources */,
+				DADC60701FE024E000C8DBFB /* Assets.xcassets in Resources */,
+				DADC606E1FE024E000C8DBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60771FE024E000C8DBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60821FE024E000C8DBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADC60611FE024E000C8DBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC60991FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel in Sources */,
+				DADC609D1FE02C5C00C8DBFB /* File.swift in Sources */,
+				DADC606B1FE024E000C8DBFB /* ViewController.swift in Sources */,
+				DADC609F1FE0352E00C8DBFB /* Utilities.swift in Sources */,
+				DADC60691FE024E000C8DBFB /* AppDelegate.swift in Sources */,
+				DA4E065B1FEB0FFB005AA17B /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60751FE024E000C8DBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC607E1FE024E000C8DBFB /* SlaloMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC60801FE024E000C8DBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC60891FE024E000C8DBFB /* SlaloMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADC607B1FE024E000C8DBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADC60641FE024E000C8DBFB /* SlaloML */;
+			targetProxy = DADC607A1FE024E000C8DBFB /* PBXContainerItemProxy */;
+		};
+		DADC60861FE024E000C8DBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADC60641FE024E000C8DBFB /* SlaloML */;
+			targetProxy = DADC60851FE024E000C8DBFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADC606C1FE024E000C8DBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC606D1FE024E000C8DBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADC60711FE024E000C8DBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC60721FE024E000C8DBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADC608B1FE024E000C8DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADC608C1FE024E000C8DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADC608E1FE024E000C8DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PMUR393DU;
+				INFOPLIST_FILE = SlaloML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADC608F1FE024E000C8DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PMUR393DU;
+				INFOPLIST_FILE = SlaloML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DADC60911FE024E000C8DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlaloMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlaloML.app/SlaloML";
+			};
+			name = Debug;
+		};
+		DADC60921FE024E000C8DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlaloMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlaloML.app/SlaloML";
+			};
+			name = Release;
+		};
+		DADC60941FE024E000C8DBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlaloMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlaloML;
+			};
+			name = Debug;
+		};
+		DADC60951FE024E000C8DBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SlaloMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlaloML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADC60601FE024E000C8DBFB /* Build configuration list for PBXProject "SlaloML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC608B1FE024E000C8DBFB /* Debug */,
+				DADC608C1FE024E000C8DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC608D1FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC608E1FE024E000C8DBFB /* Debug */,
+				DADC608F1FE024E000C8DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC60901FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC60911FE024E000C8DBFB /* Debug */,
+				DADC60921FE024E000C8DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC60931FE024E000C8DBFB /* Build configuration list for PBXNativeTarget "SlaloMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC60941FE024E000C8DBFB /* Debug */,
+				DADC60951FE024E000C8DBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADC605D1FE024E000C8DBFB /* Project object */;
+}
