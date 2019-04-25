@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FTG-e5-Y9S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FTG-e5-Y9S">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6by-9v-g93">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20171211_224011963_iOS.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6by-9v-g93">
                                 <rect key="frame" x="0.0" y="64" width="375" height="281.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="6by-9v-g93" secondAttribute="height" multiplier="1:0.75" id="6aS-5k-gbx"/>
@@ -68,10 +66,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-Yb-mb4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qz8-md-FNy">
                                 <rect key="frame" x="166.5" y="638" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -81,12 +75,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FzE-0l-5b2" firstAttribute="trailing" secondItem="m8o-Yb-mb4" secondAttribute="trailing" id="7xz-qV-rKp"/>
-                            <constraint firstItem="m8o-Yb-mb4" firstAttribute="top" secondItem="FzE-0l-5b2" secondAttribute="top" id="N9l-z4-PFx"/>
-                            <constraint firstItem="m8o-Yb-mb4" firstAttribute="leading" secondItem="FzE-0l-5b2" secondAttribute="leading" id="NXa-9z-Lbm"/>
                             <constraint firstItem="Qz8-md-FNy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FzE-0l-5b2" secondAttribute="leading" id="W6b-Z5-EvG"/>
                             <constraint firstItem="Qz8-md-FNy" firstAttribute="centerX" secondItem="lD6-fO-H3t" secondAttribute="centerX" id="XnI-4o-GFJ"/>
-                            <constraint firstItem="FzE-0l-5b2" firstAttribute="bottom" secondItem="m8o-Yb-mb4" secondAttribute="bottom" id="myo-rq-hTJ"/>
                             <constraint firstItem="FzE-0l-5b2" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Qz8-md-FNy" secondAttribute="trailing" id="pJf-pu-4AN"/>
                             <constraint firstItem="FzE-0l-5b2" firstAttribute="bottom" secondItem="Qz8-md-FNy" secondAttribute="bottom" constant="8" id="rrH-Sh-QSd"/>
                         </constraints>
@@ -100,7 +90,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="cameraView" destination="m8o-Yb-mb4" id="DA0-2f-uZg"/>
+                        <outlet property="cameraView" destination="lD6-fO-H3t" id="hyt-fL-ReP"/>
                         <outlet property="classificationText" destination="Qz8-md-FNy" id="Hcu-zs-GmB"/>
                     </connections>
                 </viewController>
@@ -146,4 +136,7 @@
             <point key="canvasLocation" x="1383" y="-226"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="20171211_224011963_iOS.jpg" width="4032" height="3024"/>
+    </resources>
 </document>

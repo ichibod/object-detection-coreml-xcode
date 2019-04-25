@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA36215F206D599400F35969 /* SlalomLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */; };
 		DA4E065B1FEB0FFB005AA17B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E065A1FEB0FFB005AA17B /* CameraViewController.swift */; };
 		DAACEF981FE9B44400C059CB /* 20171211_224011963_iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAACEF971FE9B44400C059CB /* 20171211_224011963_iOS.jpg */; };
 		DADC60691FE024E000C8DBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC60681FE024E000C8DBFB /* AppDelegate.swift */; };
@@ -16,8 +17,6 @@
 		DADC60731FE024E000C8DBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC60711FE024E000C8DBFB /* LaunchScreen.storyboard */; };
 		DADC607E1FE024E000C8DBFB /* SlaloMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC607D1FE024E000C8DBFB /* SlaloMLTests.swift */; };
 		DADC60891FE024E000C8DBFB /* SlaloMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC60881FE024E000C8DBFB /* SlaloMLUITests.swift */; };
-		DADC60991FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */; };
-		DADC609D1FE02C5C00C8DBFB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC609C1FE02C5C00C8DBFB /* File.swift */; };
 		DADC609F1FE0352E00C8DBFB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC609E1FE0352E00C8DBFB /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		DADC60881FE024E000C8DBFB /* SlaloMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaloMLUITests.swift; sourceTree = "<group>"; };
 		DADC608A1FE024E000C8DBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADC60981FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SlalomLogoClassifier.mlmodel; sourceTree = "<group>"; };
-		DADC609C1FE02C5C00C8DBFB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		DADC609E1FE0352E00C8DBFB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +111,6 @@
 				DADC606A1FE024E000C8DBFB /* ViewController.swift */,
 				DA4E065A1FEB0FFB005AA17B /* CameraViewController.swift */,
 				DADC609E1FE0352E00C8DBFB /* Utilities.swift */,
-				DADC609C1FE02C5C00C8DBFB /* File.swift */,
 				DADC606C1FE024E000C8DBFB /* Main.storyboard */,
 				DADC606F1FE024E000C8DBFB /* Assets.xcassets */,
 				DADC60711FE024E000C8DBFB /* LaunchScreen.storyboard */,
@@ -275,8 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADC60991FE0250300C8DBFB /* SlalomLogoClassifier.mlmodel in Sources */,
-				DADC609D1FE02C5C00C8DBFB /* File.swift in Sources */,
+				DA36215F206D599400F35969 /* SlalomLogoClassifier.mlmodel in Sources */,
 				DADC606B1FE024E000C8DBFB /* ViewController.swift in Sources */,
 				DADC609F1FE0352E00C8DBFB /* Utilities.swift in Sources */,
 				DADC60691FE024E000C8DBFB /* AppDelegate.swift in Sources */,
@@ -448,10 +444,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PMUR393DU;
+				DEVELOPMENT_TEAM = HKT82ARDDJ;
 				INFOPLIST_FILE = SlaloML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -465,10 +462,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PMUR393DU;
+				DEVELOPMENT_TEAM = HKT82ARDDJ;
 				INFOPLIST_FILE = SlaloML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Slalom.SlaloML2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
